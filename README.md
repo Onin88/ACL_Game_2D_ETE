@@ -1,6 +1,6 @@
 # 🎮 Epopée des Terres Ethérées 🎮
 
-## Groupe
+# Groupe
 - GEHIN Sandy
 - GEORGEL Mathis
 - SCHLESINGER Joseph
