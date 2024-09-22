@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/TriBl/Documents/COURS/S7/ACL/projet_s7_m1_game_acl/src/main/java</OriginalElement>
+  <nodes>
+    <node x="1185.7431192660551" y="1892.0">ete.environnements.Porte</node>
+    <node x="1606.7431192660551" y="1892.0">ete.environnements.PorteSortie</node>
+    <node x="1780.5206422018348" y="3093.0">ete.monde.Heros</node>
+    <node x="3019.743119266055" y="1832.0">ete.attaques.CaCAvancee</node>
+    <node x="2423.743119266055" y="1820.0">ete.attaques.EpeeCourte</node>
+    <node x="345.74311926605515" y="1866.0">ete.environnements.GestionnaireObstacles</node>
+    <node x="478.0" y="2973.0">ete.monde.Salle</node>
+    <node x="1344.9277522935781" y="4779.0">ete.controles.Controles</node>
+    <node x="3224.743119266055" y="-15.0">ete.outils.Constantes</node>
+    <node x="2250.743119266055" y="1832.0">ete.attaques.CaCBasique</node>
+    <node x="1212.0206422018348" y="3093.0">ete.outils.Collision</node>
+    <node x="1378.7431192660551" y="1892.0">ete.environnements.Sanctuaire</node>
+    <node x="995.7431192660551" y="1892.0">ete.environnements.Murs</node>
+    <node x="2130.22247706422" y="663.0">ete.attaques.Attaque</node>
+    <node x="544.0" y="4128.0">ete.monde.SalleMenu</node>
+    <node x="1986.75" y="4128.0">ete.monde.MonstreBasique</node>
+    <node x="1839.7431192660551" y="1218.0">ete.monde.Personnage</node>
+    <node x="779.9724770642204" y="711.0">ete.environnements.Obstacle</node>
+    <node x="2707.743119266055" y="1578.0">ete.outils.Node</node>
+    <node x="1218.4277522935781" y="3718.0">ete.monde.Monde</node>
+    <node x="-130.5" y="4695.0">ete.vue.Renderer</node>
+    <node x="2078.22247706422" y="-15.0">ete.attaques.Coup</node>
+    <node x="3921.743119266055" y="-15.0">ete.outils.FabriqueNumCoup</node>
+    <node x="1981.75" y="3057.0">ete.monde.Monstre</node>
+    <node x="4235.743119266055" y="-15.0">ete.outils.FabriqueNumSalle</node>
+    <node x="2513.493119266055" y="4113.73801581828">ete.monde.MonstreAvancee</node>
+    <node x="104.0" y="2889.0">ete.outils.TiledMap</node>
+    <node x="1071.5206422018348" y="5134.0">ete.gamecontroller.GameController</node>
+    <node x="622.7431192660551" y="1892.0">ete.environnements.Lave</node>
+    <node x="444.0206422018348" y="5355.0">ete.Main</node>
+    <node x="2148.72247706422" y="348.0">ete.attaques.GestionnaireCoups</node>
+    <node x="-211.0" y="3021.0">ete.vue.Camera</node>
+    <node x="3605.743119266055" y="-15.0">ete.outils.FabriqueNumPerso</node>
+    <node x="2694.243119266055" y="2709.0">ete.outils.AStar</node>
+    <node x="853.4277522935781" y="4030.0">ete.monde.SalleMonstre</node>
+    <node x="810.7431192660551" y="1892.0">ete.environnements.Eau</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ete.attaques.CaCAvancee" target="ete.attaques.Attaque" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.5" />
+      <point x="3099.743119266055" y="1198.0" />
+      <point x="2560.9724770642206" y="1198.0" />
+      <point x="2560.9724770642206" y="1188.0" />
+      <point x="2385.9724770642206" y="1188.0" />
+      <point x="85.25" y="252.5" />
+    </edge>
+    <edge source="ete.gamecontroller.GameController" target="ete.monde.Monde" relationship="TO_ONE">
+      <point x="0.0" y="-84.5" />
+      <point x="1250.0206422018348" y="5107.0" />
+      <point x="1334.4277522935781" y="5107.0" />
+      <point x="1334.4277522935781" y="4673.0" />
+      <point x="1351.2431192660551" y="4673.0" />
+      <point x="1351.2431192660551" y="4653.0" />
+      <point x="1334.4277522935781" y="4653.0" />
+      <point x="-116.0" y="456.5" />
+    </edge>
+    <edge source="ete.environnements.Lave" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="706.7431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.environnements.Murs" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="1080.7431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.environnements.PorteSortie" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="1713.2431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.vue.Renderer" target="ete.vue.Camera" relationship="TO_ONE">
+      <point x="0.0" y="-192.5" />
+      <point x="14.0" y="3667.0" />
+      <point x="10.25" y="3667.0" />
+      <point x="73.75" y="156.5" />
+    </edge>
+    <edge source="ete.monde.MonstreAvancee" target="ete.outils.AStar" relationship="TO_ONE">
+      <point x="137.75" y="-60.76198418171953" />
+      <point x="-0.0" y="468.5" />
+    </edge>
+    <edge source="ete.monde.Monde" target="ete.monde.Salle" relationship="TO_MANY">
+      <point x="0.0" y="-456.5" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="1429.5206422018348" y="3667.0" />
+      <point x="743.5" y="3667.0" />
+      <point x="88.5" y="204.5" />
+    </edge>
+    <edge source="ete.Main" target="ete.monde.Monde" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-84.5" />
+      <point x="636.0206422018348" y="5329.0" />
+      <point x="1693.427752293578" y="5329.0" />
+      <point x="1693.4277522935781" y="4673.0" />
+      <point x="1566.4277522935781" y="4673.0" />
+      <point x="116.0" y="456.5" />
+    </edge>
+    <edge source="ete.Main" target="ete.gamecontroller.GameController" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-84.5" />
+      <point x="636.0206422018348" y="5329.0" />
+      <point x="1250.0206422018348" y="5329.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="ete.environnements.GestionnaireObstacles" target="ete.environnements.Obstacle" relationship="TO_MANY">
+      <point x="0.0" y="-72.5" />
+      <point x="474.24311926605515" y="1188.0" />
+      <point x="829.2224770642204" y="1188.0" />
+      <point x="-49.25" y="204.5" />
+    </edge>
+    <edge source="ete.Main" target="ete.vue.Camera" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-84.5" />
+      <point x="636.0206422018348" y="5329.0" />
+      <point x="-141.0" y="5329.0" />
+      <point x="-141.0" y="3697.0" />
+      <point x="-137.25" y="3697.0" />
+      <point x="-73.75" y="156.5" />
+    </edge>
+    <edge source="ete.monde.Heros" target="ete.monde.Personnage" relationship="GENERALIZATION">
+      <point x="0.0" y="-84.5" />
+      <point x="1868.5206422018346" y="2684.0" />
+      <point x="2035.2431192660551" y="2684.0" />
+      <point x="0.0" y="720.5" />
+    </edge>
+    <edge source="ete.monde.Monde" target="ete.vue.Camera" relationship="TO_ONE">
+      <point x="0.0" y="-456.5" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="1429.5206422018348" y="3677.0" />
+      <point x="14.0" y="3677.0" />
+      <point x="14.0" y="3667.0" />
+      <point x="10.25" y="3667.0" />
+      <point x="73.75" y="156.5" />
+    </edge>
+    <edge source="ete.vue.Camera" target="ete.monde.Monde" relationship="TO_ONE">
+      <point x="73.75" y="156.5" />
+      <point x="10.25" y="3667.0" />
+      <point x="14.0" y="3667.0" />
+      <point x="14.0" y="3677.0" />
+      <point x="1429.5206422018348" y="3677.0" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="0.0" y="-456.5" />
+    </edge>
+    <edge source="ete.monde.Salle" target="ete.environnements.GestionnaireObstacles" relationship="TO_ONE">
+      <point x="0.0" y="-204.5" />
+      <point x="655.0" y="2684.0" />
+      <point x="474.24311926605515" y="2684.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="ete.attaques.CaCBasique" target="ete.attaques.Attaque" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.5" />
+      <point x="2327.243119266055" y="1198.0" />
+      <point x="2560.9724770642206" y="1198.0" />
+      <point x="2560.9724770642206" y="1188.0" />
+      <point x="2385.9724770642206" y="1188.0" />
+      <point x="85.25" y="252.5" />
+    </edge>
+    <edge source="ete.gamecontroller.GameController" target="ete.controles.Controles" relationship="TO_ONE">
+      <point x="0.0" y="-84.5" />
+      <point x="1250.0206422018348" y="5107.0" />
+      <point x="1513.9277522935781" y="5107.0" />
+      <point x="0.0" y="108.5" />
+    </edge>
+    <edge source="ete.outils.AStar" target="ete.outils.Node" relationship="TO_MANY">
+      <point x="0.0" y="-468.5" />
+      <point x="0.0" y="360.5" />
+    </edge>
+    <edge source="ete.environnements.Eau" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="893.2431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.attaques.GestionnaireCoups" target="ete.attaques.Coup" relationship="TO_MANY">
+      <point x="0.0" y="-132.5" />
+      <point x="0.0" y="156.5" />
+    </edge>
+    <edge source="ete.Main" target="ete.vue.Renderer" relationship="CREATE">
+      <point x="1.1368683772161603E-13" y="-84.5" />
+      <point x="636.0206422018348" y="5329.0" />
+      <point x="9.0" y="5329.0" />
+      <point x="9.0" y="5107.0" />
+      <point x="-58.25" y="5107.0" />
+      <point x="-72.25" y="192.5" />
+    </edge>
+    <edge source="ete.gamecontroller.GameController" target="ete.vue.Renderer" relationship="TO_ONE">
+      <point x="0.0" y="-84.5" />
+      <point x="1250.0206422018348" y="5107.0" />
+      <point x="86.25" y="5107.0" />
+      <point x="72.25" y="192.5" />
+    </edge>
+    <edge source="ete.monde.SalleMonstre" target="ete.monde.Monstre" relationship="TO_MANY">
+      <point x="86.25" y="-144.5" />
+      <point x="1112.1777522935781" y="3687.0" />
+      <point x="2083.0" y="3687.0" />
+      <point x="-101.25" y="120.5" />
+    </edge>
+    <edge source="ete.vue.Renderer" target="ete.monde.Monde" relationship="TO_ONE">
+      <point x="0.0" y="-192.5" />
+      <point x="14.0" y="4663.0" />
+      <point x="1351.2431192660551" y="4663.0" />
+      <point x="1351.2431192660551" y="4653.0" />
+      <point x="1334.4277522935781" y="4653.0" />
+      <point x="-116.0" y="456.5" />
+    </edge>
+    <edge source="ete.environnements.Sanctuaire" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="1482.7431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.attaques.Attaque" target="ete.attaques.GestionnaireCoups" relationship="TO_ONE">
+      <point x="0.0" y="-252.5" />
+      <point x="0.0" y="132.5" />
+    </edge>
+    <edge source="ete.controles.Controles" target="ete.monde.Monde" relationship="TO_ONE">
+      <point x="0.0" y="-108.5" />
+      <point x="1513.9277522935781" y="4673.0" />
+      <point x="1351.2431192660551" y="4673.0" />
+      <point x="1351.2431192660551" y="4653.0" />
+      <point x="1334.4277522935781" y="4653.0" />
+      <point x="-116.0" y="456.5" />
+    </edge>
+    <edge source="ete.outils.TiledMap" target="ete.environnements.GestionnaireObstacles" relationship="TO_ONE">
+      <point x="0.0" y="-288.5" />
+      <point x="281.0" y="2684.0" />
+      <point x="474.24311926605515" y="2684.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="ete.monde.Monde" target="ete.monde.Heros" relationship="TO_ONE">
+      <point x="0.0" y="-456.5" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="1429.5206422018348" y="3667.0" />
+      <point x="1868.5206422018346" y="3667.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="ete.outils.Collision" target="ete.monde.Monde" relationship="TO_ONE">
+      <point x="0.0" y="84.5" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="0.0" y="-456.5" />
+    </edge>
+    <edge source="ete.monde.Monde" target="ete.outils.Collision" relationship="TO_ONE">
+      <point x="0.0" y="-456.5" />
+      <point x="1450.4277522935781" y="3697.0" />
+      <point x="1429.5206422018348" y="3697.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="ete.attaques.EpeeCourte" target="ete.attaques.Attaque" relationship="GENERALIZATION">
+      <point x="0.0" y="-118.5" />
+      <point x="2555.743119266055" y="1198.0" />
+      <point x="2560.9724770642206" y="1198.0" />
+      <point x="2560.9724770642206" y="1188.0" />
+      <point x="2385.9724770642206" y="1188.0" />
+      <point x="85.25" y="252.5" />
+    </edge>
+    <edge source="ete.monde.MonstreAvancee" target="ete.monde.Monstre" relationship="GENERALIZATION">
+      <point x="-101.25" y="-60.76198418171998" />
+      <point x="2614.743119266055" y="3697.0" />
+      <point x="2189.25" y="3697.0" />
+      <point x="2189.25" y="3687.0" />
+      <point x="2285.5" y="3687.0" />
+      <point x="101.25" y="120.5" />
+    </edge>
+    <edge source="ete.monde.Monstre" target="ete.monde.Personnage" relationship="GENERALIZATION">
+      <point x="0.0" y="-120.5" />
+      <point x="2184.25" y="2684.0" />
+      <point x="2035.2431192660551" y="2684.0" />
+      <point x="0.0" y="720.5" />
+    </edge>
+    <edge source="ete.monde.Personnage" target="ete.attaques.Attaque" relationship="TO_ONE">
+      <point x="0.0" y="-720.5" />
+      <point x="2035.2431192660551" y="1198.0" />
+      <point x="2215.47247706422" y="1198.0" />
+      <point x="-85.25" y="252.5" />
+    </edge>
+    <edge source="ete.environnements.Porte" target="ete.environnements.Obstacle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="1272.2431192660551" y="1198.0" />
+      <point x="1181.7224770642201" y="1198.0" />
+      <point x="1181.7224770642201" y="1188.0" />
+      <point x="927.7224770642204" y="1188.0" />
+      <point x="49.25" y="204.5" />
+    </edge>
+    <edge source="ete.monde.SalleMonstre" target="ete.monde.Salle" relationship="GENERALIZATION">
+      <point x="-86.25" y="-144.5" />
+      <point x="939.6777522935781" y="3697.0" />
+      <point x="650.0" y="3697.0" />
+      <point x="650.0" y="3667.0" />
+      <point x="566.5" y="3667.0" />
+      <point x="-88.5" y="204.5" />
+    </edge>
+    <edge source="ete.monde.SalleMenu" target="ete.monde.Salle" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="650.0" y="3667.0" />
+      <point x="566.5" y="3667.0" />
+      <point x="-88.5" y="204.5" />
+    </edge>
+    <edge source="ete.monde.MonstreBasique" target="ete.monde.Monstre" relationship="GENERALIZATION">
+      <point x="0.0" y="-46.5" />
+      <point x="2189.25" y="3687.0" />
+      <point x="2285.5" y="3687.0" />
+      <point x="101.25" y="120.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.769548277174647" showDependencies="true" x="1193.9457620258268" y="3917.5929623248294" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
