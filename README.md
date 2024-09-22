@@ -35,4 +35,5 @@ ou java -cp ETE-1-shaded.jar ete.Main --module-path /usr/share/java/javafx --add
 > - Système de niveaux, secrets à découvrir, sprint, paramètres personnalisables ⚙️.
 > - Sauvegarde du progrès des joueurs 💾.
 > - Travail collaboratif avec répartition des tâches au sein de l’équipe.
-> Ce projet met en avant l’aspect conception de gameplay, intelligence artificielle et gestion de groupe, offrant une expérience complète de développement de jeu.
+
+Ce projet met en avant l’aspect conception de gameplay, intelligence artificielle et gestion de groupe, offrant une expérience complète de développement de jeu.
