@@ -29,7 +29,7 @@ ou java -cp ETE-1-shaded.jar ete.Main --module-path /usr/share/java/javafx --add
 ## Description
 > [!NOTE]
 > Développement en équipe de 4 d’un jeu vidéo 2D inspiré de Enter the Gungeon, intégrant plusieurs mécaniques de gameplay et éléments techniques :
-> - Création de maps manuellement à l'aide de Tiles avec gestion des collisions, différenciées selon les matériaux 🔨.
+> - Création de maps manuellement à l'aide de "TiledMap" avec gestion des collisions, différenciées selon les matériaux 🔨.
 > - Animations et attaques variées pour les personnages 🗡️.
 > - Pièges, objets, monstres avec une IA avancée basée sur l'algorithme A (A Star)* 🤖.
 > - Système de niveaux, secrets à découvrir, sprint, paramètres personnalisables ⚙️.
