@@ -37,3 +37,13 @@ ou java -cp ETE-1-shaded.jar ete.Main --module-path /usr/share/java/javafx --add
 > - Travail collaboratif avec répartition des tâches au sein de l’équipe.
 
 Ce projet met en avant l’aspect conception de gameplay, intelligence artificielle et gestion de groupe, offrant une expérience complète de développement de jeu.
+
+## Screenshots
+Map du Menu Principal :
+![](https://raw.githubusercontent.com/Onin88/ACL_Game_2D_ETE/master/ScreenShots/screen1.png)
+
+Map du début avec monstres simples :
+![](https://raw.githubusercontent.com/Onin88/ACL_Game_2D_ETE/master/ScreenShots/screen2.png)
+
+Map du milieu avec des monstres plus expérimentées avec skills, etc..., animation de mort et fenêtre de fin :
+![](https://raw.githubusercontent.com/Onin88/ACL_Game_2D_ETE/master/ScreenShots/screen3.png)
